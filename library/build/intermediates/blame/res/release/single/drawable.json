@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/build/intermediates/res/merged/release/drawable/below_shadow.xml",
+        "source": "/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/src/main/res/drawable/below_shadow.xml"
+    },
+    {
+        "merged": "/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/build/intermediates/res/merged/release/drawable/above_shadow.xml",
+        "source": "/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/src/main/res/drawable/above_shadow.xml"
+    },
+    {
+        "merged": "/Users/zhangyipeng/Documents/GITHUB/AnwerDemo/library/build/intermediates/res/merged/release/drawable/above_shadow.xml",
+        "source": "/Users/zhangyipeng/Documents/GITHUB/AnwerDemo/library/src/main/res/drawable/above_shadow.xml"
+    },
+    {
+        "merged": "/Users/zhangyipeng/Documents/GITHUB/AnwerDemo/library/build/intermediates/res/merged/release/drawable/below_shadow.xml",
+        "source": "/Users/zhangyipeng/Documents/GITHUB/AnwerDemo/library/src/main/res/drawable/below_shadow.xml"
+    },
+    {
+        "merged": "/Users/zhangyipeng/Documents/GITHUB/AndroidSlidingUpPanel/library/build/intermediates/res/merged/release/drawable/below_shadow.xml",
+        "source": "/Users/zhangyipeng/Documents/GITHUB/AndroidSlidingUpPanel/library/src/main/res/drawable/below_shadow.xml"
+    },
+    {
+        "merged": "/Users/zhangyipeng/Documents/GITHUB/AndroidSlidingUpPanel/library/build/intermediates/res/merged/release/drawable/above_shadow.xml",
+        "source": "/Users/zhangyipeng/Documents/GITHUB/AndroidSlidingUpPanel/library/src/main/res/drawable/above_shadow.xml"
+    },
+    {
+        "merged": "/Users/zhangyipeng/QuxuecheAndroid/AnwerDemo/library/build/intermediates/res/merged/release/drawable/above_shadow.xml",
+        "source": "/Users/zhangyipeng/QuxuecheAndroid/AnwerDemo/library/src/main/res/drawable/above_shadow.xml"
+    },
+    {
+        "merged": "/Users/zhangyipeng/QuxuecheAndroid/AnwerDemo/library/build/intermediates/res/merged/release/drawable/below_shadow.xml",
+        "source": "/Users/zhangyipeng/QuxuecheAndroid/AnwerDemo/library/src/main/res/drawable/below_shadow.xml"
+    }
+]

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/ll_anwer_all_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:paddingTop="23dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.3"
+                android:padding="0dp"
+                android:text="事故中造成这个驾驶人事故中造成这个驾驶人事故中造成这个"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_anwer_media"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:paddingTop="22dp">
+
+
+            <!--<VideoView-->
+                <!--android:id="@+id/ijkPlayer"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="160dp" />-->
+
+            <ImageView
+                android:id="@+id/iv_anwer_img"
+                android:layout_width="match_parent"
+                android:layout_height="160dp" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_anwer_choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="17dp"
+            android:paddingTop="17dp">
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_anwer_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:layout_marginTop="17dp"
+            android:orientation="vertical"
+            android:padding="17dp">
+
+            <TextView
+                android:id="@+id/tv_anwer_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标准答案：C"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_anwer_ok_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="啊嘎嘎垃圾了双方的啊嘎嘎垃圾了双方的啊嘎嘎垃圾了双方的啊嘎嘎垃圾了双方的啊嘎嘎垃圾了双方的啊嘎嘎垃圾了双方的"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_anwer_submit"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="70dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="17dp"
+            android:text="提交"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,174 @@
+[
+    {
+        "outputFile": "/Users/zhangyipeng/Documents/GITHUB/AndroidSlidingUpPanel/library/build/intermediates/res/merged/release/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1123,
+                    "endColumn": 74,
+                    "endOffset": 1193
+                },
+                "from": {
+                    "file": "/Users/zhangyipeng/Documents/GITHUB/AndroidSlidingUpPanel/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 500,
+                        "endColumn": 74,
+                        "endOffset": 570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 1198,
+                    "endColumn": 65,
+                    "endOffset": 1259
+                },
+                "from": {
+                    "file": "/Users/zhangyipeng/Documents/GITHUB/AndroidSlidingUpPanel/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 745,
+                        "endColumn": 65,
+                        "endOffset": 806
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/zhangyipeng/QuxuecheAndroid/AnwerDemo/library/build/intermediates/res/merged/release/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1123,
+                    "endColumn": 74,
+                    "endOffset": 1193
+                },
+                "from": {
+                    "file": "/Users/zhangyipeng/QuxuecheAndroid/AnwerDemo/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 500,
+                        "endColumn": 74,
+                        "endOffset": 570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 1198,
+                    "endColumn": 65,
+                    "endOffset": 1259
+                },
+                "from": {
+                    "file": "/Users/zhangyipeng/QuxuecheAndroid/AnwerDemo/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 745,
+                        "endColumn": 65,
+                        "endOffset": 806
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/build/intermediates/res/merged/release/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1123,
+                    "endColumn": 74,
+                    "endOffset": 1193
+                },
+                "from": {
+                    "file": "/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 500,
+                        "endColumn": 74,
+                        "endOffset": 570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 1198,
+                    "endColumn": 65,
+                    "endOffset": 1259
+                },
+                "from": {
+                    "file": "/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 745,
+                        "endColumn": 65,
+                        "endOffset": 806
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/zhangyipeng/Documents/GITHUB/AnwerDemo/library/build/intermediates/res/merged/release/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1123,
+                    "endColumn": 74,
+                    "endOffset": 1193
+                },
+                "from": {
+                    "file": "/Users/zhangyipeng/Documents/GITHUB/AnwerDemo/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 500,
+                        "endColumn": 74,
+                        "endOffset": 570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 1198,
+                    "endColumn": 65,
+                    "endOffset": 1259
+                },
+                "from": {
+                    "file": "/Users/zhangyipeng/Documents/GITHUB/AnwerDemo/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 745,
+                        "endColumn": 65,
+                        "endOffset": 806
+                    }
+                }
+            }
+        ]
+    }
+]

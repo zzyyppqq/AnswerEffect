@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/src/main/res"/><source path="/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/build/generated/res/rs/release"/><source path="/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/build/generated/res/resValues/release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/src/release/res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/src/main/res"><file name="above_shadow" path="/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/src/main/res/drawable/above_shadow.xml" qualifiers="" type="drawable"/><file name="below_shadow" path="/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/src/main/res/drawable/below_shadow.xml" qualifiers="" type="drawable"/><file path="/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="SlidingUpPanelLayout">
+        <attr format="dimension" name="umanoPanelHeight"/>
+        <attr format="dimension" name="umanoShadowHeight"/>
+        <attr format="dimension" name="umanoParallaxOffset"/>
+        <attr format="color" name="umanoFadeColor"/>
+        <attr format="integer" name="umanoFlingVelocity"/>
+        <attr format="reference" name="umanoDragView"/>
+        <attr format="reference" name="umanoScrollableView"/>
+        <attr format="boolean" name="umanoOverlay"/>
+        <attr format="boolean" name="umanoClipPanel"/>
+        <attr format="float" name="umanoAnchorPoint"/>
+        <attr format="enum" name="umanoInitialState">
+            <enum name="expanded" value="0"/>
+            <enum name="collapsed" value="1"/>
+            <enum name="anchored" value="2"/>
+            <enum name="hidden" value="3"/>
+        </attr>
+        <attr format="reference" name="umanoScrollInterpolator"/>
+    </declare-styleable></file></source><source path="/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/build/generated/res/rs/release"/><source path="/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/build/generated/res/resValues/release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="/Users/zhangyipeng/Documents/GITHUB/AnswerEffect/library/src/release/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SlidingUpPanelLayout"><attr format="dimension" name="umanoPanelHeight"/><attr format="dimension" name="umanoShadowHeight"/><attr format="dimension" name="umanoParallaxOffset"/><attr format="color" name="umanoFadeColor"/><attr format="integer" name="umanoFlingVelocity"/><attr format="reference" name="umanoDragView"/><attr format="reference" name="umanoScrollableView"/><attr format="boolean" name="umanoOverlay"/><attr format="boolean" name="umanoClipPanel"/><attr format="float" name="umanoAnchorPoint"/><attr format="enum" name="umanoInitialState"><enum name="expanded" value="0"/><enum name="collapsed" value="1"/><enum name="anchored" value="2"/><enum name="hidden" value="3"/></attr><attr format="reference" name="umanoScrollInterpolator"/></declare-styleable></configuration></mergedItems></merger>
