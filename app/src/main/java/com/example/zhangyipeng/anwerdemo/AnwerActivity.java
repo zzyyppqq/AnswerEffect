@@ -17,6 +17,8 @@ import com.alibaba.fastjson.JSON;
 import com.example.zhangyipeng.anwerdemo.adapter.LayoutAdapter;
 import com.example.zhangyipeng.anwerdemo.adapter.TopicAdapter;
 import com.example.zhangyipeng.anwerdemo.bean.AnwerInfo;
+import com.example.zhangyipeng.anwerdemo.bean.QuestionEntry;
+import com.example.zhangyipeng.anwerdemo.bean.QuestionList;
 import com.example.zhangyipeng.anwerdemo.view.FlipperLayout;
 import com.lsjwzh.widget.recyclerviewpager.RecyclerViewPager;
 import com.sothree.slidinguppanel.SlidingUpPanelLayout;
@@ -24,6 +26,7 @@ import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 
 public class AnwerActivity extends AppCompatActivity implements FlipperLayout.OnSlidePageListener {
@@ -42,6 +45,22 @@ public class AnwerActivity extends AppCompatActivity implements FlipperLayout.On
         setContentView(R.layout.activity_anwer);
 
         TextView tv_title = (TextView) findViewById(R.id.tv_title);
+
+        tv_title.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    InputStream in = getAssets().open("test_1.json");
+                    List<QuestionEntry> questionEntries = JSON.parseArray(inputStream2String(in), QuestionEntry.class);
+                    int size = questionEntries.size();
+                    Log.i("AA",size+"");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                    Log.e("data.size=", e.toString());
+                }
+            }
+        });
+
         Button bt_pre = (Button) findViewById(R.id.bt_pre);
         Button bt_next = (Button) findViewById(R.id.bt_next);
 
@@ -199,7 +218,7 @@ public class AnwerActivity extends AppCompatActivity implements FlipperLayout.On
     @Override
     public boolean whetherHasNextPage() {
         index = rootLayout.getIndex();
-        Log.i("whetherHasNextPage size= ",datas.size()+"=="+index);
+//        Log.i("whetherHasNextPage size= ",datas.size()+"=="+index);
 
         if(datas.size()==index){
             return false;
