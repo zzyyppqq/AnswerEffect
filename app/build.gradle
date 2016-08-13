@@ -22,15 +22,16 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.4.0'
     compile files('libs/fastjson-1.2.9.jar')
-    compile 'com.android.support:recyclerview-v7:23.4.0'
-//    compile 'com.github.lsjwzh.RecyclerViewPager:lib:v1.1.0'
+    //    compile 'com.github.lsjwzh.RecyclerViewPager:lib:v1.1.0'
     //    compile 'com.sothree.slidinguppanel:library:3.3.0'
     //    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v1.8.5'
     //    compile 'com.timehop.stickyheadersrecyclerview:library:0.4.3@aar'
-    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
     compile project(':library')
     compile project(':sticky-head-library')
     compile project(':lib')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:recyclerview-v7:23.4.0'
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile 'com.android.support:support-v4:23.4.0'
 }

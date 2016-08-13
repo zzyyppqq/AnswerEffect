@@ -1,5 +1,6 @@
 package com.example.zhangyipeng.anwerdemo.bean;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -47,7 +48,7 @@ public class AnwerInfo extends BaseInfo{
             this.data = data;
         }
 
-        public static class SubDataBean {
+        public static class SubDataBean implements Serializable{
             private String answer;
             private String explain;
             private String optiona;

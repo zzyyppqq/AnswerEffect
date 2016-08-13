@@ -29,6 +29,8 @@
         </activity>
         <activity android:name=".AnswerReadActivity">
         </activity>
+        <activity android:name=".ReadActivity">
+        </activity>
 
     </application>
 
